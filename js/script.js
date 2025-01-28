@@ -535,13 +535,13 @@ function cargarCarrito() {
   }
 }
 
-// Llama a esta función al inicio de tu script
+// Llamar función al inicio del script
 cargarCarrito();
 
 // Función para agregar productos al carrito
 document.addEventListener('DOMContentLoaded', function() {
   cargarCarrito();
-  actualizarCartPopup(); // O actualizarCartPopupProducto(), según corresponda
+  actualizarCartPopup(); // 
 });
 
 function agregarCarrito(producto) {
